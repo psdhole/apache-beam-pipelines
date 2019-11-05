@@ -1,0 +1,15 @@
+{
+   "namespace": "com.demo.avro.model",
+   "type": "record",
+   "name": "Data",
+   "fields": [
+      {"name": "InvoiceNo", "type": "string"},
+      {"name": "StockCode", "type": "string"},
+      {"name": "Description", "type": "string"},
+      {"name": "Quantity", "type": "string"},
+      {"name": "InvoiceDate", "type": "string"},
+      {"name": "UnitPrice", "type": "string"},
+      {"name": "CustomerID", "type": "string"},
+      {"name": "Country", "type": "string"}
+   ]
+}
